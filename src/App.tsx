@@ -3,9 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import DisplayScreen from './screens/DisplayScreen';
 import AddScreen from './screens/AddScreen';
-
 const Stack = createStackNavigator();
-
 const App = () => {
   return (
     <NavigationContainer>
